@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ExcercisesPDF
 {
-    class Excercise7
+    class Excercise07
     {
         public static void RunExcercise7()
         {

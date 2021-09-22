@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ExcercisesPDF
 {
-    class Excercise2
+    class Excercise02
     {
         public static void RunExcercise2()
         {

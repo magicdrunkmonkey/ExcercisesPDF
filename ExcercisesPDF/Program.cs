@@ -19,31 +19,34 @@ namespace ExcercisesPDF
                     switch (assignmentChoice)
                     {
                         case 1:
-                            Excercise1.RunExcercise1();
+                            Excercise01.RunExcercise1();
                             break;
                         case 2:
-                            Excercise2.RunExcercise2();
+                            Excercise02.RunExcercise2();
                             break;
                         case 3:
-                            Excercise3.RunExcercise3();
+                            Excercise03.RunExcercise3();
                             break;
                         case 4:
-                            Excercise4.RunExcercise4();
+                            Excercise04.RunExcercise4();
                             break;
                         case 5:
-                            Excercise5.RunExcercise5();
+                            Excercise05.RunExcercise5();
                             break;
                         case 6:
-                            Excercise6.RunExcercise6();
+                            Excercise06.RunExcercise6();
                             break;
                         case 7:
-                            Excercise7.RunExcercise7();
+                            Excercise07.RunExcercise7();
                             break;
                         case 8:
-                            Excercise8.RunExcercise8();
+                            Excercise08.RunExcercise8();
                             break;
                         case 9:
-                            Excercise9.RunExcercise9();
+                            Excercise09.RunExcercise9();
+                            break;
+                        case 10:
+                            Excercise10.RunExcercise10();
                             break;
                         case -1:
                             keepAlive = false;
