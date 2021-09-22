@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace ExcercisesPDF
 {
-    class ExcerciseTwo
+    class Excercise2
     {
-        public static void RunExcerciseTwo()
+        public static void RunExcercise2()
         {
             // Declare variables
             DateTime todaysDate = DateTime.Now;

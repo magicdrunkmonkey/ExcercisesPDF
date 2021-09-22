@@ -19,13 +19,13 @@ namespace ExcercisesPDF
                     switch (assignmentChoice)
                     {
                         case 1:
-                            ExcerciseOne.RunExcerciseOne();
+                            Excercise1.RunExcercise1();
                             break;
                         case 2:
-                            ExcerciseTwo.RunExcerciseTwo();
+                            Excercise2.RunExcercise2();
                             break;
                         case 3:
-                            // Call your next assignment method here!
+                            Excercise3.RunExcercise3();
                             break;
                         case -1:
                             keepAlive = false;

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ExcercisesPDF
 {
-    class ExcerciseOne
+    class Excercise1
     {
-        public static void RunExcerciseOne()
+        public static void RunExcercise1()
         {
             string firstName = "George";
             string lastName = "Sydby";
