@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+
 
 namespace ExcercisesPDF
 {
@@ -17,10 +19,10 @@ namespace ExcercisesPDF
                     switch (assignmentChoice)
                     {
                         case 1:
-                            RunExerciseOne();
+                            ExcerciseOne.RunExcerciseOne();
                             break;
                         case 2:
-                            RunExerciseOne();
+                            ExcerciseTwo.RunExcerciseTwo();
                             break;
                         case 3:
                             // Call your next assignment method here!
@@ -36,7 +38,7 @@ namespace ExcercisesPDF
                     Console.ResetColor();
                     Console.WriteLine("Hit any key to continue!");
                     Console.ReadKey();
-                    Console.Clear;
+                    Console.Clear();
                 }
                 catch
                 {
@@ -46,5 +48,6 @@ namespace ExcercisesPDF
                 }
             }
         }
+
     }
 }
