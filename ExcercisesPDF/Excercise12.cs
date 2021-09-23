@@ -8,7 +8,7 @@ namespace ExcercisesPDF
     {
         public static void RunExcercise12()
         {
-            // Declare variables                        
+            // Declare variable                        
             int value = 10;
 
             //Multiplication Table
