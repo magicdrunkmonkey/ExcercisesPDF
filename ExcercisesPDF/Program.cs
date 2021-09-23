@@ -51,6 +51,9 @@ namespace ExcercisesPDF
                         case 11:
                             Excercise11.RunExcercise11();
                             break;
+                        case 12:
+                            Excercise12.RunExcercise12();
+                            break;
                         case -1:
                             keepAlive = false;
                             break;
