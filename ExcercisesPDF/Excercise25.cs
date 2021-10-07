@@ -10,7 +10,7 @@ namespace ExcercisesPDF
         {
             // Declare variables
             bool keepLooping = true;
-            int input;
+            int input1, input2, result;
 
 
             while (keepLooping)
@@ -18,8 +18,27 @@ namespace ExcercisesPDF
                 try
                 {
                     Console.Write("Enter a valid integer value: ");
-                    input = int.Parse(Console.ReadLine());
+                    input1 = int.Parse(Console.ReadLine());
+
+                    Console.Write("Enter a valid integer value: ");
+                    input2 = int.Parse(Console.ReadLine());
+
+                    result = input1 / input2;
+                    Console.WriteLine("{0} / {1} = {2}", input1, input2, result);
+
                     keepLooping = false;
+                }
+                catch (ArgumentNullException)
+                {
+                    Console.WriteLine("ArgumentNullException");
+                }
+                catch (DivideByZeroException)
+                {
+                    Console.WriteLine("DivideByZeroException");
+                }
+                catch (ArgumentException)
+                {
+                    Console.WriteLine("ArgumentException");
                 }
                 catch
                 {
